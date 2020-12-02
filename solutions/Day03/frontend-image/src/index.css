@@ -1,0 +1,30 @@
+html,
+body {
+  font-size: 16px;
+  font-family: "Montserrat-regular";
+  box-sizing: border-box;
+  width: 130rem;
+}
+
+.appContainer {
+  margin: 0.1rem;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 2rem;
+  height: auto;
+  overflow: auto;
+}
+
+.headerWrapper {
+  margin: auto;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image {
+  align-content: center;
+}
